@@ -20,10 +20,7 @@
 - Instale as dependências com `yarn` ou `npm install`;
 - Construa o broker Apache Kafka e MongoDB com `docker-compose up`
 
-</br>
-
 ## Mapeamento 
-</br>
 
 ### Portas
 - `localhost:9000` -  consumer api
@@ -35,10 +32,8 @@
 </br>
 
 ### Rotas
-</br>
 
 ## Consumer api:
-</br>
 
 #### Buscar todos os usuários cadastrados:
 
@@ -48,7 +43,7 @@
 
 ```
 {
-	"count": 29,
+	"count": 1,
 	"users": [
 		{
 			"_id": "6265c461b8a8aab3196ff9c1",
@@ -66,7 +61,6 @@
 	DELETE http://localhost:9000/users
 
 ## Producer api:
-</br>
 
 ### Enviar usuários para a fila:
 
