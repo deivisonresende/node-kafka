@@ -1,6 +1,6 @@
 <h1 align="center">Node-kafka</h1>
 
-<h3> Base de estudos em stream de eventos / mensageira, onde a proposta inicial foi realizar uma introdução a produção e consumo de mensagens utilizando Node e Kafka</h3>
+<h3> Base de estudos em stream de eventos / mensageira, onde a proposta inicial foi realizar uma introdução a produção e consumo de mensagens utilizando Node e Kafka, convertendo uma carga entre 500 a 1000 solicitações do mesmo serviço em mensagens enfileiradas a serem consumidas no "tempo do servidor" </h3>
 </br>
 
 <h3 align="center"> Tecnologias utilizadas </a></h2>
