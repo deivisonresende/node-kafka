@@ -1,0 +1,21 @@
+{
+  "name": "kafka-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start:consumer": " nodemon src/consumerApi/index.js",
+    "start:producer": " nodemon src/producer/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "kafkajs": "^1.16.0",
+    "mongoose": "^6.3.1",
+    "node-fetch": "^3.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
